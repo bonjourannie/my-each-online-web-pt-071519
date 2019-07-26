@@ -2,10 +2,8 @@ def my_each(words)
   counter = 0 
   while counter < words.length 
   yield(words[counter])
-  counter +=1 
+  counter = counter +=1 
 end
 words
 end
 
-yield(collection[i])
-    i = i + 1
