@@ -1,3 +1,8 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(words)
+  counter = 0 
+  while counter < words
+  words.each do |item|
+    
+  counter +=1 
+  
 end
