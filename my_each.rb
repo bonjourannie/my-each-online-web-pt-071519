@@ -4,5 +4,6 @@ def my_each(words)
   words.each do |item|
     
   counter +=1 
-  
+end
+array 
 end
